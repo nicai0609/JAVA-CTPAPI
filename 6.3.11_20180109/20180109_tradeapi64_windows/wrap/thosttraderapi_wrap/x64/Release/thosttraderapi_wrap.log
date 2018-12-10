@@ -1,12 +1,12 @@
-﻿生成启动时间为 2018/12/10 20:23:35。
+﻿生成启动时间为 2018/12/10 21:04:11。
      1>项目“E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D THOSTTRADERAPI_WRAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\..\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.cpp"
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D THOSTTRADERAPI_WRAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\..\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.cpp"
          thosttraderapi_wrap.cpp
      1>e:\@home\java-ctpapi\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
      1>..\..\..\..\..\..\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.cpp(33669): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.lib" /MACHINE:X64 /DLL x64\Release\thosttraderapi_wrap.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.lib" /MACHINE:X64 /NODEFAULTLIB:"libcmt.lib" /DLL x64\Release\thosttraderapi_wrap.obj
          "..\..\..\..\..\..\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\libiconv.lib"
          "..\..\..\..\..\..\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\thosttraderapi.lib"
             正在创建库 E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.lib 和对象 E:\@home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi64_windows\wrap\thosttraderapi_wrap\x64\Release\thosttraderapi_wrap.exp
@@ -17,4 +17,4 @@
 
 生成成功。
 
-已用时间 00:00:06.87
+已用时间 00:00:07.54
