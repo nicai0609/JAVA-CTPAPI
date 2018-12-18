@@ -1,0 +1,21 @@
+﻿生成启动时间为 2018/12/15 16:02:48。
+     1>项目“E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D THOSTAPI_WRAP_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt "..\..\..\..\..\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thosttraderapi_wrap.cpp"
+         thosttraderapi_wrap.cpp
+     1>e:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\iconv.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>..\..\..\..\..\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thosttraderapi_wrap.cpp(34033): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.lib" /MACHINE:X64 /DLL x64\Release\thosttraderapi_wrap.obj
+         "..\..\..\..\..\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\libiconv.lib"
+         "..\..\..\..\..\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostmduserapi.lib"
+         "..\..\..\..\..\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thosttraderapi.lib"
+            正在创建库 E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.lib 和对象 E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.exp
+         正在生成代码
+         已完成代码的生成
+         thostapi_wrap.vcxproj -> E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\x64\Release\thostapi_wrap.dll
+     1>已完成生成项目“E:\@home\all_api\20180109_tradeapi64_windows\wrap\thostapi_wrap\thostapi_wrap.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.93
