@@ -4,7 +4,7 @@ class TraderSpiImpl extends CThostFtdcTraderSpi{
 	final static String m_BrokerId = "9999";
 	final static String m_UserId = "070624";
 	final static String m_InvestorId = "070624";
-	final static String m_PassWord = "jing12"; 
+	final static String m_PassWord = "passwd"; 
 	final static String m_TradingDay = "20181122";
 	final static String m_AccountId = "070624";
 	final static String m_CurrencyId = "CNY";
