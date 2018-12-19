@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thostmduserapi;
+package ctp.thostmduserapi;
 
 public interface thostmduserapiConstants {
   public final static char THOST_FTDC_EXP_Normal = thostmduserapiJNI.THOST_FTDC_EXP_Normal_get();

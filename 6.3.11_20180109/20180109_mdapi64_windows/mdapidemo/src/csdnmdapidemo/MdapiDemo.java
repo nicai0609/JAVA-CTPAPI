@@ -1,6 +1,6 @@
 package csdnmdapidemo;
 
-import test.thostmduserapi.*;
+import ctp.thostmduserapi.*;
 
 class mdspiImpl extends CThostFtdcMdSpi{
 	final static String m_BrokerId = "9999";
@@ -31,7 +31,7 @@ class mdspiImpl extends CThostFtdcMdSpi{
 		}
 		
 		String[] instruementid = new String[1];
-		instruementid[0]="rb1906";		
+		instruementid[0]="au1906";		
 		m_mdapi.SubscribeMarketData(instruementid,1);
 	}
 	
@@ -54,7 +54,7 @@ public class MdapiDemo {
 		System.loadLibrary("thostmduserapi");
 		System.loadLibrary("thostmduserapi_wrap");
 	}
-	final static String ctp1_MdAddress = "tcp://180.168.146.187:10031";
+	final static String ctp1_MdAddress = "tcp://180.168.146.187:10010";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		CThostFtdcMdApi mdApi = CThostFtdcMdApi.CreateFtdcMdApi();

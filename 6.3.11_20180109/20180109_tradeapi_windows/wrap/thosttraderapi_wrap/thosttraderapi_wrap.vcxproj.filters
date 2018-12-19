@@ -32,15 +32,15 @@
     <ClInclude Include="..\..\..\..\..\..\%40home\all_api\SFIT_CTP_6.3.11_20180109_tradeapi\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\ThostFtdcUserApiStruct.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\%40home\all_api\SFIT_CTP_6.3.11_20180109_tradeapi\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.h">
+    <ClInclude Include="..\..\..\..\..\..\%40home\all_api\SFIT_CTP_6.3.11_20180109_tradeapi\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\iconv.h">
       <Filter>源文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\%40home\all_api\SFIT_CTP_6.3.11_20180109_tradeapi\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\iconv.h">
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\..\%40home\all_api\SFIT_CTP_6.3.11_20180109_tradeapi\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.cpp">
+    <ClCompile Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_tradeapi_windows\wrap\thosttraderapi_wrap\thosttraderapi_wrap.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

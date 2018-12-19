@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thostmduserapi;
+package ctp.thostmduserapi;
 
 public class CThostFtdcQryBulletinField {
   private long swigCPtr;

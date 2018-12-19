@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thosttraderapi;
+package ctp.thosttraderapi;
 
 public class CThostFtdcVerifyCustInfoField {
   private long swigCPtr;

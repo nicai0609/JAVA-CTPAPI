@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thosttraderapi;
+package ctp.thosttraderapi;
 
 public class thosttradeapiJNI {
   public final static native int THOST_TERT_RESTART_get();

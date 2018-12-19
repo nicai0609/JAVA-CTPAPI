@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thostmduserapi;
+package ctp.thostmduserapi;
 
 public class CThostFtdcRspUserLogin2Field {
   private long swigCPtr;

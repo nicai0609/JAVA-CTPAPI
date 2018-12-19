@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thostmduserapi;
+package ctp.thostmduserapi;
 
 public final class THOST_TE_RESUME_TYPE {
   public final static THOST_TE_RESUME_TYPE THOST_TERT_RESTART = new THOST_TE_RESUME_TYPE("THOST_TERT_RESTART", thostmduserapiJNI.THOST_TERT_RESTART_get());

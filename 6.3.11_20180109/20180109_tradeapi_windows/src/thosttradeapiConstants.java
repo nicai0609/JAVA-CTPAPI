@@ -6,7 +6,7 @@
  * the SWIG interface file instead.
  * ----------------------------------------------------------------------------- */
 
-package test.thosttraderapi;
+package ctp.thosttraderapi;
 
 public interface thosttradeapiConstants {
   public final static char THOST_FTDC_EXP_Normal = thosttradeapiJNI.THOST_FTDC_EXP_Normal_get();

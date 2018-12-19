@@ -67,28 +67,29 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;THOSTMDUSERAPI_WRAP_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>/NODEFAULTLIB:"libcmt.lib";"Nafxcwd.lib" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\%40home\all_api\thostmduserapi_wrap\ThostFtdcMdApi.h" />
-    <ClInclude Include="..\..\..\%40home\all_api\thostmduserapi_wrap\ThostFtdcUserApiDataType.h" />
-    <ClInclude Include="..\..\..\%40home\all_api\thostmduserapi_wrap\ThostFtdcUserApiStruct.h" />
-    <ClInclude Include="..\..\..\%40home\all_api\thostmduserapi_wrap\thostmduserapi_wrap.h" />
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcMdApi.h" />
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcUserApiDataType.h" />
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcUserApiStruct.h" />
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\thostmduserapi_wrap.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\%40home\all_api\thostmduserapi_wrap\thostmduserapi.dll" />
+    <ClCompile Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\thostmduserapi_wrap.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\..\%40home\all_api\thostmduserapi_wrap\thostmduserapi.lib" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\%40home\all_api\thostmduserapi_wrap\thostmduserapi_wrap.cpp" />
+    <Library Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\thostmduserapi.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
