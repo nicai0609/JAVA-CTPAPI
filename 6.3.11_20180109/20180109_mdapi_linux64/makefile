@@ -5,7 +5,7 @@ CPPFLAG=-shared -fPIC
 CC=g++
 LDLIB=-L. -lthostmduserapi
 $(TARGET) : $(OBJS)
-	$(CC) $(CPPFLAG) $(INCLUDE) -o $(TARGET) $(OBJS) $(LDLIB) 
+	$(CC) $(CPPFLAG) $(INCLUDE) -o $(TARGET) $(OBJS) $(LDLIB) ./libiconv.a
 $(OBJS) : %.o : %.cpp
 	$(CC) -c -fPIC $(INCLUDE) $< -o $@ 
 clean:

@@ -1,10 +1,12 @@
 import ctp.thosttraderapi.*;;
 
 class TraderSpiImpl extends CThostFtdcTraderSpi{	
-	final static String m_BrokerId = "9999";
-	final static String m_UserId = "070624";
+	//final static String m_BrokerId = "9999";
+	//final static String m_UserId = "070624";	
+	final static String m_BrokerId = "8000";
+	final static String m_UserId = "8000_admin";
+	final static String m_PassWord = "1"; 
 	final static String m_InvestorId = "070624";
-	final static String m_PassWord = "passwd"; 
 	final static String m_TradingDay = "20181122";
 	final static String m_AccountId = "070624";
 	final static String m_CurrencyId = "CNY";
@@ -24,6 +26,10 @@ class TraderSpiImpl extends CThostFtdcTraderSpi{
 		m_traderapi.ReqUserLogin(field,0);
 		System.out.println("Send login ok");
 	}
+	
+	public void OnFrontDisconnected(int nReason) {
+		System.out.printf("OnFrontDisconnected nReason[%d]\n", nReason);
+	};
 	
 	@Override
 	public void OnRspUserLogin(CThostFtdcRspUserLoginField pRspUserLogin, CThostFtdcRspInfoField pRspInfo, int nRequestID, boolean bIsLast)
@@ -101,7 +107,8 @@ public class tradeapi64 {
 		System.loadLibrary("thosttraderapi");
 		System.loadLibrary("thosttraderapi_wrap");
 	}
-	final static String ctp1_TradeAddress = "tcp://180.168.146.187:10000";
+	final static String ctp1_TradeAddress = "tcp://180.168.146.187:10030";
+	//final static String ctp1_TradeAddress = "tcp://172.24.125.199:50233";
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//System.out.println(System.getProperty("java.library.path"));
@@ -112,7 +119,16 @@ public class tradeapi64 {
 		traderApi.SubscribePublicTopic(THOST_TE_RESUME_TYPE.THOST_TERT_RESTART);
 		traderApi.SubscribePrivateTopic(THOST_TE_RESUME_TYPE.THOST_TERT_RESTART);
 		traderApi.Init();
-		traderApi.Join();
+		try {
+			Thread.sleep(20000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.printf("Release start\n");
+		traderApi.Release();
+		System.out.printf("Release end\n");
+		//traderApi.Join();
 		return;
 	}
 }

@@ -27,9 +27,15 @@
     <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi64_windows\wrap\thostmduserapi_wrap\thostmduserapi_wrap.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi64_windows\wrap\thostmduserapi_wrap\iconv.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Library Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi64_windows\wrap\thostmduserapi_wrap\thostmduserapi.lib">
+      <Filter>源文件</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi64_windows\wrap\thostmduserapi_wrap\libiconv.lib">
       <Filter>源文件</Filter>
     </Library>
   </ItemGroup>

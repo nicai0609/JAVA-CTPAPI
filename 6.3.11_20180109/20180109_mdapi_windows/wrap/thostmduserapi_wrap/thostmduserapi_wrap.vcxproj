@@ -75,11 +75,12 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalOptions>/NODEFAULTLIB:"libcmt.lib";"Nafxcwd.lib" %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/NODEFAULTLIB:"libcmt.lib" %(AdditionalOptions)</AdditionalOptions>
       <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\iconv.h" />
     <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcMdApi.h" />
     <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcUserApiDataType.h" />
     <ClInclude Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\ThostFtdcUserApiStruct.h" />
@@ -89,6 +90,7 @@
     <ClCompile Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\thostmduserapi_wrap.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Library Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\libiconv.lib" />
     <Library Include="..\..\..\..\..\..\%40home\JAVA-CTPAPI\6.3.11_20180109\20180109_mdapi_windows\wrap\thostmduserapi_wrap\thostmduserapi.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
