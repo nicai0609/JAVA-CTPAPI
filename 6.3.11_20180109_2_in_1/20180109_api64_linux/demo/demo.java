@@ -152,11 +152,11 @@ class mdspiImpl extends CThostFtdcMdSpi{
 		}
 		String[] instruementid = new String[1];
 		Iterator iterator = m_instr_vec.iterator();
-        while (iterator.hasNext()) {
-        	instruementid[0]=iterator.next().toString();
-        	m_mdapi.SubscribeMarketData(instruementid,1);
-            System.out.println(iterator.next());
-        }
+		while (iterator.hasNext()) {
+			instruementid[0]=iterator.next().toString();
+			m_mdapi.SubscribeMarketData(instruementid,1);
+			System.out.println(instruementid[0]);
+		}
 	}
 	
 	public void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField pDepthMarketData) {
@@ -197,10 +197,10 @@ public class demo {
 		traderApi.Init();
 		//这里sleep是为了保证traderapi的登录查询成功
 		try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace(); 
-        }
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		CThostFtdcMdApi mdApi = CThostFtdcMdApi.CreateFtdcMdApi("md");
 		mdspiImpl pMdspiImpl = new mdspiImpl(mdApi,instr_vec);
 		mdApi.RegisterSpi(pMdspiImpl);
